@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from 'react';
 import './App.css';
 import { recordAudio, speechToText, textToSpeech, playAudio } from './speechService';
 
-const API_URL = 'http://10.0.0.145:8001/chat';
+const API_URL = 'http://localhost:8001/chat';
 
 function App() {
   const [question, setQuestion] = useState('');
