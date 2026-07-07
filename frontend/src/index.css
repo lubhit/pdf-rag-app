@@ -1,0 +1,3 @@
+/* Intentionally minimal — App.css handles all styling.
+   This replaces the Vite default index.css, whose dark-mode and
+   centering rules would conflict with the chat layout. */

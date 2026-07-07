@@ -1,0 +1,11 @@
+.env
+.env.local
+.env.*
+node_modules/
+__pycache__/
+*.pyc
+dist/
+build/
+ios/App/App/public/
+.DS_Store
+files*.zip
